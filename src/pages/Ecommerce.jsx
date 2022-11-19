@@ -1,11 +1,12 @@
+// eslint-disable-next-line no-unused-vars
+
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { GoPrimitiveDot } from 'react-icons/go';
-import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
 import { Button, LineChart } from '../components';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import { earningData, dropdownData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 // import product9 from '../data/product9.jpg';
 
@@ -24,8 +25,8 @@ const Ecommerce = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400" style={{color: "black"}}>Earnings</p>
-              <p className="text-2xl" style={{color: "black"}}>$63,448.78</p>
+              <p className="font-bold text-gray-400" style={{ color: 'black' }}>Earnings</p>
+              <p className="text-2xl" style={{ color: 'black' }}>$63,448.78</p>
             </div>
             <button
               type="button"
@@ -137,25 +138,18 @@ const Ecommerce = () => {
               <SparkLine currentColor={currentColor} id="column-sparkLine" height="100px" type="Column" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
             </div> */}
           </div>
-
-          
         </div>
       </div>
-
-              <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
-          <div className="flex justify-between items-center gap-2 mb-10">
-            <p className="text-xl font-semibold">Sales Overview</p>
-            <DropDown currentMode={currentMode} />
-          </div>
-          <div className="md:w-full overflow-auto">
-            <LineChart />
-          </div>
+      <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        <div className="flex justify-between items-center gap-2 mb-10">
+          <p className="text-xl font-semibold">Sales Overview</p>
+          <DropDown currentMode={currentMode} />
+        </div>
+        <div className="md:w-full overflow-auto">
+          <LineChart />
         </div>
       </div>
-
-                  
-        
-        
+    </div>
   );
 };
 

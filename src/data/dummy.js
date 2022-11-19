@@ -14,12 +14,12 @@ import avatar3 from './avatar3.png';
 import avatar4 from './avatar4.jpg';
 
 import hp1 from './hp1.jpg';
-import macbookp from "./macbookp.jpeg";
-import macbooka from "./macbooka.jpg";
-import dellxps from "./dellxps.jpeg";
+import macbookp from './macbookp.jpeg';
+import macbooka from './macbooka.jpg';
+import dellxps from './dellxps.jpeg';
 import hpsp from './hpsp.jpg';
 import micgo from './micgo.jpeg';
-import len1 from "./len1.jpg";
+import len1 from './len1.jpg';
 
 export const gridOrderImage = (props) => (
   <div>
@@ -522,7 +522,7 @@ export const links = [
       {
         name: 'line',
         icon: <AiOutlineStock />,
-      },  
+      },
     ],
   },
 ];
@@ -550,7 +550,7 @@ export const cartData = [
     price: '$890',
   },
 ];
-                                // chat data
+
 export const chatData = [
   {
     image:
@@ -1449,7 +1449,7 @@ export const customersData = [
   },
 
 ];
-                                // employee data  
+
 export const employeesData = [
   {
     EmployeeID: 1,
@@ -1643,19 +1643,18 @@ export const employeesData = [
       avatar,
   },
 ];
-                                       // LAPTOPS DATA
+
+
 export const ordersData = [
   {
     OrderID: 10248,
     CustomerName: 'Vinet',
-
     TotalAmount: 799.89,
     OrderItems: 'HP Envy x360',
     Location: 'Agra',
     Status: 'pending',
     StatusBg: 'pink',
-    ProductImage:hp1
-      // URL("./hp1.jpg"),
+    ProductImage: hp1,
   },
   {
     OrderID: 345653,
@@ -1665,8 +1664,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:macbookp 
-     
+    ProductImage: macbookp,
   },
   {
     OrderID: 390457,
@@ -1696,7 +1694,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'rejected',
     StatusBg: 'red',
-    ProductImage:macbookp,
+    ProductImage: macbookp,
   },
   {
     OrderID: 94757,
@@ -1706,7 +1704,7 @@ export const ordersData = [
     Location: 'Mumbai',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:dellxps,
+    ProductImage: dellxps,
   },
   {
     OrderID: 944895,
@@ -1716,7 +1714,7 @@ export const ordersData = [
     Location: 'Kolkata',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:len1,
+    ProductImage: len1,
   },
   {
     OrderID: 845954,
@@ -1726,7 +1724,7 @@ export const ordersData = [
     Location: 'Sangrur',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:hp1
+    ProductImage: hp1,
   },
   {
     OrderID: 845954,
@@ -1736,7 +1734,7 @@ export const ordersData = [
     Location: 'Patiala',
     Status: 'pending',
     StatusBg: '#FB9678',
-    ProductImage:hpsp
+    ProductImage: hpsp,
   },
   {
     OrderID: 874534,
@@ -1746,7 +1744,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:micgo
+    ProductImage: micgo,
   },
   {
     OrderID: 38489,
@@ -1756,7 +1754,7 @@ export const ordersData = [
     Location: 'Chennai',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:macbookp
+    ProductImage: macbookp,
   },
   {
     OrderID: 24546,
@@ -1766,7 +1764,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage: micgo
+    ProductImage: micgo,
   },
   {
     OrderID: 874534,
@@ -1776,7 +1774,7 @@ export const ordersData = [
     Location: 'Chennai',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:hpsp
+    ProductImage: hpsp,
   },
   {
     OrderID: 10248,
@@ -1786,8 +1784,7 @@ export const ordersData = [
     Location: 'Kolkata',
     Status: 'pending',
     StatusBg: '#FB9678',
-    ProductImage:
-      macbooka,
+    ProductImage: macbooka,
   },
   {
     OrderID: 345653,
@@ -1797,8 +1794,7 @@ export const ordersData = [
     Location: 'Ludhiana',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      dellxps,
+    ProductImage: dellxps,
   },
   {
     OrderID: 390457,
@@ -1808,8 +1804,7 @@ export const ordersData = [
     Location: 'Amritsar',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      hp1,
+    ProductImage: hp1,
   },
   {
     OrderID: 893486,
@@ -1819,8 +1814,7 @@ export const ordersData = [
     Location: 'Manali',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      dellxps,
+    ProductImage: dellxps,
   },
   {
     OrderID: 748975,
@@ -1830,8 +1824,7 @@ export const ordersData = [
     Location: 'Vridavan',
     Status: 'rejected',
     StatusBg: 'red',
-    ProductImage:
-      hpsp,
+    ProductImage: hpsp,
   },
   {
     OrderID: 94757,
@@ -1841,8 +1834,7 @@ export const ordersData = [
     Location: 'Mumbai',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      macbookp,
+    ProductImage: macbookp,
   },
   {
     OrderID: 944895,
@@ -1852,8 +1844,7 @@ export const ordersData = [
     Location: 'Kolkata',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      macbooka,
+    ProductImage: macbooka,
   },
   {
     OrderID: 845954,
@@ -1863,8 +1854,7 @@ export const ordersData = [
     Location: 'Chennai',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      macbooka,
+    ProductImage: macbooka,
   },
   {
     OrderID: 845954,
@@ -1874,8 +1864,7 @@ export const ordersData = [
     Location: 'Varanasi',
     Status: 'pending',
     StatusBg: '#FB9678',
-    ProductImage:
-      macbooka
+    ProductImage: macbooka,
   },
   {
     OrderID: 874534,
@@ -1885,8 +1874,7 @@ export const ordersData = [
     Location: 'Manali',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      hpsp
+    ProductImage: hpsp,
   },
   {
     OrderID: 38489,
@@ -1896,8 +1884,7 @@ export const ordersData = [
     Location: 'Sangrur',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      len1
+    ProductImage: len1,
   },
   {
     OrderID: 24546,
@@ -1907,8 +1894,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      macbookp
+    ProductImage: macbookp,
   },
   {
     OrderID: 874534,
@@ -1918,8 +1904,7 @@ export const ordersData = [
     Location: 'Mumbai',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      micgo
+    ProductImage: micgo,
   },
   {
     OrderID: 10248,
@@ -1929,8 +1914,7 @@ export const ordersData = [
     Location: 'Chennai',
     Status: 'pending',
     StatusBg: '#FB9678',
-    ProductImage:
-      micgo
+    ProductImage: micgo,
   },
   {
     OrderID: 345653,
@@ -1940,8 +1924,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      macbookp
+    ProductImage: macbookp,
   },
   {
     OrderID: 390457,
@@ -1951,8 +1934,7 @@ export const ordersData = [
     Location: 'GandhiDham',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      macbooka
+    ProductImage: macbooka,
   },
   {
     OrderID: 893486,
@@ -1962,8 +1944,7 @@ export const ordersData = [
     Location: 'Jammu',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      hpsp
+    ProductImage: hpsp,
   },
   {
     OrderID: 748975,
@@ -1973,8 +1954,7 @@ export const ordersData = [
     Location: 'Sikkim',
     Status: 'rejected',
     StatusBg: 'red',
-    ProductImage:
-      len1
+    ProductImage: len1,
   },
   {
     OrderID: 94757,
@@ -1984,8 +1964,7 @@ export const ordersData = [
     Location: 'VishakhaPatnam',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      hp1
+    ProductImage: hp1,
   },
   {
     OrderID: 944895,
@@ -1995,8 +1974,7 @@ export const ordersData = [
     Location: 'Tamil-Nadu',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      macbooka
+    ProductImage: macbooka,
   },
   {
     OrderID: 845954,
@@ -2006,8 +1984,7 @@ export const ordersData = [
     Location: 'Kerala',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      macbookp
+    ProductImage: macbookp,
   },
   {
     OrderID: 845954,
@@ -2017,8 +1994,7 @@ export const ordersData = [
     Location: 'Mandi-Govindgarh',
     Status: 'pending',
     StatusBg: '#FB9678',
-    ProductImage:
-      len1
+    ProductImage: len1,
   },
   {
     OrderID: 874534,
@@ -2028,8 +2004,7 @@ export const ordersData = [
     Location: 'Sangrur',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      macbooka
+    ProductImage: macbooka,
   },
   {
     OrderID: 38489,
@@ -2039,8 +2014,7 @@ export const ordersData = [
     Location: 'Ajmer',
     Status: 'active',
     StatusBg: '#03C9D7',
-    ProductImage:
-      dellxps
+    ProductImage: dellxps,
   },
   {
     OrderID: 24546,
@@ -2050,8 +2024,7 @@ export const ordersData = [
     Location: 'Delhi',
     Status: 'complete',
     StatusBg: '#8BE78B',
-    ProductImage:
-      hpsp
+    ProductImage: hpsp,
   },
   {
     OrderID: 874534,
@@ -2061,9 +2034,8 @@ export const ordersData = [
     Location: 'Karnal',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
-    ProductImage:
-      macbookp
-  },  
+    ProductImage: macbookp,
+  }
 ];
 
 export const scheduleData = [
