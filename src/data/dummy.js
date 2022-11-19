@@ -1644,7 +1644,6 @@ export const employeesData = [
   },
 ];
 
-
 export const ordersData = [
   {
     OrderID: 10248,
@@ -2035,7 +2034,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage: macbookp,
-  }
+  },
 ];
 
 export const scheduleData = [
